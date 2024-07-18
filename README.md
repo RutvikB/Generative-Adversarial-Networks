@@ -22,7 +22,7 @@ We use Google Colab to train models quickly, and using its GPU backend (if we're
 - Gradients are calculated and used to update the generator and discriminator models
 
 ## My Best Result
-
+Output from my Deep Convolutional GAN: <br>
 ![Output from my Deep Convolutional GAN](https://github.com/RutvikB/Generative-Adversarial-Networks/blob/main/dc-gan/dcgan.gif)
 
 
