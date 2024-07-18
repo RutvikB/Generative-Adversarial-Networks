@@ -25,7 +25,10 @@ We use Google Colab to train models quickly, and using its GPU backend (if we're
 - Loss is calculated using custom functions for both models
 - Gradients are calculated and used to update the generator and discriminator models
 
-## My Best Result
+## My Best Results
+Output from my Simple GAN: <br>
+![Output from my Simple GAN](https://github.com/RutvikB/Generative-Adversarial-Networks/blob/main/simple-gan/simple_gan.gif)
+<br>
 Output from my Deep Convolutional GAN: <br>
 ![Output from my Deep Convolutional GAN](https://github.com/RutvikB/Generative-Adversarial-Networks/blob/main/dc-gan/dcgan.gif)
 
