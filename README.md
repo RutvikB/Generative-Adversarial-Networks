@@ -3,8 +3,12 @@
 <b> What are GANs? <br> </b>
 Generative Adversarial Networks (GANs) are one of the most interesting ideas in computer science today. Two models are trained simultaneously by an adversarial process. <br> A generator ("the artist") learns to create images that look real, while a discriminator ("the art critic") learns to tell real images apart from fakes.
 
-This repo demonstrates the process of building a GAN model using the [MNIST](https://keras.io/api/datasets/mnist/) dataset. <br>
-We use Google Colab to train models quickly, and using its GPU backend (if we're lucky! 🤞:) <br>
+This repo demonstrates the process of building two GAN models using the [MNIST](https://keras.io/api/datasets/mnist/) dataset. <be>
+1. Simple GAN using a simpler Convolutional and Fully Connected Layers
+2. Deep Convolutional GAN with a more complex architecture
+
+   
+We use Google Colab to train models quickly, and using its GPU backend (if we're lucky! 🤞) <br>
 
 ## Generator
 - Uses `tf.keras.layers.Conv2DTranspose` (upsampling) layers to produce an image from a seed (random noise)
